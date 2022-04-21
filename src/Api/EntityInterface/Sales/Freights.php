@@ -15,7 +15,7 @@
  * @author    Tiago Sampaio <tiago.sampaio@e-smart.com.br>
  */
 
-namespace SkyHub\Api\EntityInterface\Sales\Order;
+namespace SkyHub\Api\EntityInterface\Sales;
 
 use SkyHub\Api\EntityInterface\EntityAbstract;
 use SkyHub\Api\Handler\Request\Sales\FreightsHandler;

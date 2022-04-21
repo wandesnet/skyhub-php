@@ -15,10 +15,9 @@
  * @author    Tiago Sampaio <tiago.sampaio@e-smart.com.br>
  */
 
-namespace SkyHub\Api\Handler\Request\Sync;
+namespace SkyHub\Api\Handler\Request;
 
 use SkyHub\Api\EntityInterface\Questions;
-use SkyHub\Api\Handler\Request\HandlerAbstract;
 
 class QuestionsHandler extends HandlerAbstract
 {
