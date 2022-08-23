@@ -160,7 +160,7 @@ class ProductHandler extends HandlerAbstract
                 continue;
             }
 
-            $query[$key] = $value;
+            $query["filters[$key]"] = $value;
         }
 
         /**
