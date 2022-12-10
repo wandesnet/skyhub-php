@@ -60,7 +60,7 @@ interface ServiceInterface
 
     /**
      * @param string $uri
-     * @param string $body
+     * @param string|array|null $body
      * @param array  $options
      *
      * @return HandlerInterfaceException|HandlerInterfaceSuccess
@@ -69,7 +69,7 @@ interface ServiceInterface
 
     /**
      * @param string $uri
-     * @param string $body
+     * @param string|array|null $body
      * @param array  $options
      *
      * @return HandlerInterfaceException|HandlerInterfaceSuccess
@@ -78,7 +78,7 @@ interface ServiceInterface
 
     /**
      * @param string $uri
-     * @param string $body
+     * @param string|array|null $body
      * @param array  $options
      *
      * @return HandlerInterfaceException|HandlerInterfaceSuccess
@@ -95,7 +95,7 @@ interface ServiceInterface
 
     /**
      * @param string $uri
-     * @param string $body
+     * @param string|array|null $body
      * @param array  $options
      *
      * @return HandlerInterfaceException|HandlerInterfaceSuccess
